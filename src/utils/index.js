@@ -6,7 +6,7 @@ import {
 	BRANDs,
 	CATEGORIEs,
 	API_Url
-} from "./constans"
+} from "./constants"
 import {formatPricE} from "./helpers"
 
 
