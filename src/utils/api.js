@@ -1,6 +1,6 @@
 import axios from "axios";
 import API_URL from "./constants.js"
-let api = axios.create({
+let apiUrl = axios.create({
     baseURL: API_URL,
     headers: {
         'Accept': 'application/json',
@@ -22,4 +22,4 @@ let api = axios.create({
 //     error => { return Promise.reject(error); }
 // );
 
-export default api;
+export default apiUrl;

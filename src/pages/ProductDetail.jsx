@@ -8,7 +8,7 @@ import Stars from '../components/productDetail/Stars';
 import PageHero from '../layout/PageHero';
 import AddToCart from '../components/productDetail/AddToCart';
 import { getProductDetails } from '../store/actions/products-actions';
-import { formatPrice } from '../utils/helpers';
+import { formatPrice } from '../utils/index';
 import TheSpinner from '../layout/TheSpinner';
 
 

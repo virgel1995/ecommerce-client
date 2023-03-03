@@ -2,8 +2,7 @@ import axios from 'axios';
 
 import { productsActions } from '../products-slice.js';
 import { uiActions } from '../ui-slicejs';
-import api from '../../utils/api.js';
-import API_URL from "../../utils/constants.js"
+import { api, API_URL} from '../../utils/index.js';
 
 export const getProducts = () => {
     return async dispatch => {

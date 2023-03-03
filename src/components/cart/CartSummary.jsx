@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { formatPrice } from '../../utils/helpers';
+import { formatPrice } from '../../utils/index';
 
 
 const CartSummary = ({ totalPrice }) => {

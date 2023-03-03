@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import PageHero from '../layout/PageHero';
 
-import { ABOUT_IMG_URL } from '../utils/constants.js';
+import { ABOUT_IMG_URL } from '../utils/index.js';
 
 
 const containerVariants = {

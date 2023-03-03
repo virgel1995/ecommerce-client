@@ -1,5 +1,5 @@
 // import axios from "axios";
-import api from "../../utils/api";
+import api from "../../utils/index";
 import { authActions } from '../auth-slice';
 import { uiActions } from "../ui-slice";
 

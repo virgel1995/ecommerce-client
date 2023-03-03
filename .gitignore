@@ -7,7 +7,8 @@
 
 # testing
 /coverage
-
+.replit
+replit.nix
 # production
 /build
 

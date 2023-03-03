@@ -3,7 +3,7 @@ import React from 'react';
 import swal from 'sweetalert';
 
 import { FaCcVisa } from 'react-icons/fa';
-import { formatPrice } from '../../utils/helpers';
+import { formatPrice } from '../../utils/index';
 import { useDispatch } from 'react-redux';
 import { cartActions } from '../../store/cart-slice';
 

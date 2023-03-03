@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HiChevronDoubleRight } from 'react-icons/hi'
 
-import { formatPrice } from "../../utils/helpers";
+import { formatPrice } from "../../utils/index";
 
 const ProductItem = ({ product, update }) => {
   return (

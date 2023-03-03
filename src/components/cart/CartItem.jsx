@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductAmount from './ProductAmount';
 
-import { formatPrice } from '../../utils/helpers';
+import { formatPrice } from '../../utils/index';
 
 
 const CartItem = ({ cart }) => {
