@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-import { productsActions } from '../products-slice';
-import { uiActions } from '../ui-slice';
-import api from '../../utils/api';
-import API_URL from "../../utils/constants"
+import { productsActions } from '../products-slice.js';
+import { uiActions } from '../ui-slicejs';
+import api from '../../utils/api.js';
+import API_URL from "../../utils/constants.js"
 
 export const getProducts = () => {
     return async dispatch => {

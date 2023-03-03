@@ -2,7 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import PageHero from '../layout/PageHero';
-import { ABOUT_IMG_URL } from '../utils/constants';
+
+import { ABOUT_IMG_URL } from '../utils/constants.js';
 
 
 const containerVariants = {
@@ -50,7 +51,7 @@ const About = () => {
                 <div className='w-[85vw] flex mx-auto'>
                     <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-8'>
                         <div>
-                            <img src={ABOUT_IMG_URL} alt="" />
+                            <img src={ABOUT_IMG_URL} alt="img" />
                         </div>
                         <div>
                             <motion.h2 className='text-4xl lg:text-6xl font-bold capitalize tracking-wider'
