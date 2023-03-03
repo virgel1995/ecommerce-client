@@ -1,7 +1,7 @@
 import axios from "axios";
-
+import API_URL from "./constants.js"
 let api = axios.create({
-    baseURL: 'https://ecommerce-api.virgel1995.repl.co',
+    baseURL: API_URL,
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',

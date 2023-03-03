@@ -3,13 +3,13 @@ import axios from 'axios';
 import { productsActions } from '../products-slice';
 import { uiActions } from '../ui-slice';
 import api from '../../utils/api';
-
+import API_URL from "../../utils/constants"
 
 export const getProducts = () => {
     return async dispatch => {
         dispatch(uiActions.productsLoading());
         const fetchData = async () => {
-            const response = await axios.get('http://localhost:8000/api/products');
+            const response = await axios.get(API_URL + '/api/products');
 
             const data = await response.data;
             return data;
@@ -32,7 +32,7 @@ export const getProductDetails = (id) => {
     return async dispatch => {
         dispatch(uiActions.pDetailLoading());
         const fetchData = async () => {
-            const response = await axios.get(`http://localhost:8000/api/products/${id}`);
+            const response = await axios.get(`${API_URL}/api/products/${id}`);
 
             const data = await response.data;
             return data;
@@ -56,7 +56,7 @@ export const addProduct = ({ product, token }) => {
         await api.get('/sanctum/csrf-cookie');
         
         const postData = async () => {
-            const response = await axios.post('http://localhost:8000/api/products', product, {
+            const response = await axios.post(API_URL + '/api/products', product, {
                     headers: {
                         'Content-Type': 'multipart/form-data',
                         Authorization: 'Bearer ' + token,

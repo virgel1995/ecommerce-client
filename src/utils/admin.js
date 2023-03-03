@@ -1,10 +1,10 @@
 import axios from "axios";
 // import { useSelector } from "react-redux";
-
+import API_URL from "./constants.js"
 // const token = useSelector((state) => state.auth.token);
 
 let api = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: API_URL,
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
