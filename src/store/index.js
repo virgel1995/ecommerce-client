@@ -49,5 +49,6 @@ const store = configureStore({
         }),
 });
 
-
+//export const uiSlice = uiSlice; 
+//export const authSlice=authSlice;
 export default store;
