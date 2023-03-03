@@ -3,20 +3,20 @@ import { apiUrl } from "./api.js"
 import {
   HERO_Url,
 	ABOUT_IMG_Url,
-	BRANDS,
-	CATEGORIES,
-	API_URL
+	BRANDs,
+	CATEGORIEs,
+	API_Url
 } from "./constans"
-import {formatPrice} from "./helpers"
+import {formatPricE} from "./helpers"
 
 
 
 
 export const HERO_URL =  HERO_Url;
 export const ABOUT_IMG_URL =  ABOUT_IMG_Url;
-export const BRANDS =  BRANDS;
-export const CATEGORIES =  CATEGORIES;
-export const API_URL =  API_URL;
+export const BRANDS =  BRANDs;
+export const CATEGORIES =  CATEGORIEs;
+export const API_URL =  API_Url;
 export const api = apiUrl
 export const adminApi = api;
-export const formatPrice = formatPrice;
+export const formatPrice = formatPricE;
