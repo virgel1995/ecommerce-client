@@ -3,7 +3,7 @@ import axios from "axios";
 import API_URL from "./constants.js"
 // const token = useSelector((state) => state.auth.token);
 
-let api = axios.create({
+let Api = axios.create({
     baseURL: API_URL,
     headers: {
         'Accept': 'application/json',
@@ -16,4 +16,4 @@ let api = axios.create({
 
 
 
-export default api;
+export default Api;

@@ -1,4 +1,4 @@
-import api  from "./admin.js"
+import Api  from "./admin.js"
 import { apiUrl } from "./api.js"
 import {
   HERO_Url,
@@ -18,5 +18,5 @@ export const BRANDS =  BRANDs;
 export const CATEGORIES =  CATEGORIEs;
 export const API_URL =  API_Url;
 export const api = apiUrl
-export const adminApi = api;
+export const adminApi = Api;
 export const formatPrice = formatPricE;
